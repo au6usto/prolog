@@ -29,7 +29,14 @@ quecome(X,Y).
 * Leo 21/7 al 21/8
 * Acuario 21/1 al 21/2
 
-## Escribir una regla que permita calcular el signo del Zodíaco para un día y un mes concreto, por ejemplo: signo(Dia,Mes,Signo)
+Escribir una regla que permita calcular el signo del Zodíaco para un día y un mes concreto, por ejemplo: signo(Dia,Mes,Signo)
+
+4. Escriba la(s) reglas(s) necesaria(s) para la función imprime
+Ej. ?- imprime ([a,b,c,d]).
+a
+b
+c
+d
 
 5. Escriba la(s) regla(s) necesaria(s) para agregar un elemento al principio de una lista.
 Ej. ?- agregar(gato,[zorro,gallina,cerdo],L).
@@ -40,27 +47,34 @@ Ej.?- agregar_final([agua, tierra, viento],fuego ,L).
 L = [agua, tierra, viento, fuego]
 
 7. Clientes de compras en la librería. Sobre la base del conocimiento de productos indicando su descripción y precio:
+
 * producto(cuaderno,30).
 * producto(lapiz,10).
 * producto(goma,8).
 * producto(compaz,25).
+
 Y las reglas que indican cada compra realizada por los clientes detallando el producto en su descripción y cantidad.
+
 * compra(marta,producto(cuaderno,2)).
 * compra(marta,producto(lapiz,1)).
 * compra(jose,producto(compaz,1)).
 * compra(jose,producto(goma,3)).
+
 Se pide desarrollar haciendo uso de findall cláusulas de Horm que:
+
 a. Se contabilice cuantos productos compro un cliente determinado.
 b. Investiguen cuanto gasto un cliente.
 c. Se detalle en una lista, las compras realizadas [(Cliente,Producto,Cantidad,Total), ..., (...)] en la libreria.
 
 8. Agencia de autos alta y baja gama
+
 % Base del conocimiento
-auto(datos(baja,fiat,uno,2010,negro,precio(60000))).
-auto(datos(baja,renault,clio,2011,gris,precio(70000))).
-auto(datos(alta,volwagen,bora,2011,blanco,precio(160000))).
-auto(datos(alta,bmw,370,2011,blanco,precio(260000))).
-auto(datos(alta,mercedez,220,2012,gris,precio(280000))).
+* auto(datos(baja,fiat,uno,2010,negro,precio(60000))).
+* auto(datos(baja,renault,clio,2011,gris,precio(70000))).
+* auto(datos(alta,volwagen,bora,2011,blanco,precio(160000))).
+* auto(datos(alta,bmw,370,2011,blanco,precio(260000))).
+* auto(datos(alta,mercedez,220,2012,gris,precio(280000))).
+
 Desarrollar cláusulas que calculen
-1- Importe total de autos por gama.
-2- Lista de autos por gama.
+a. Importe total de autos por gama.
+b. Lista de autos por gama.
