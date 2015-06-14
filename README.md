@@ -1,5 +1,5 @@
-# Trabajo Práctico de Prolog 2015
-1. Tomando el grafico de la serie animada "Los Simpsons" represente las características de los objetos y las relaciones entre ellos. Asimismo, basadas en las relaciones "progenitor" y el género de las personas (hombre o mujer), establecer reglas para:
+# Trabajo Práctico de Prolog
+## Tomando el grafico de la serie animada "Los Simpsons" represente las características de los objetos y las relaciones entre ellos. Asimismo, basadas en las relaciones "progenitor" y el género de las personas (hombre o mujer), establecer reglas para:
 
 * abuelo(X,Y).
 * abuela(X,Y).
@@ -12,11 +12,11 @@
 
 ![Familia Simpsons](simpsons.png)
 
-2. Tomando el grafico siguiente represente las características de los objetos y las relaciones entre ellos. Asimismo establecer reglas para: quecome(X,Y).
+## Tomando el grafico siguiente represente las características de los objetos y las relaciones entre ellos. Asimismo establecer reglas para: quecome(X,Y).
 
 ![Familia Simpsons](cadenaalimenticia.png)
 
-3. Realiza un programa que dado un signo del horóscopo nos muestre el día y mes de inicio y fin de ese signo.
+## Realiza un programa que dado un signo del horóscopo nos muestre el día y mes de inicio y fin de ese signo.
 
 * Virgo 21/8 al 21/9
 * Aries 21/3 al 21/4
@@ -32,7 +32,7 @@
 
 Escribir una regla que permita calcular el signo del Zodíaco para un día y un mes concreto, por ejemplo: signo(Dia,Mes,Signo)
 
-4. Escriba la(s) reglas(s) necesaria(s) para la función imprime
+## Escriba la(s) reglas(s) necesaria(s) para la función imprime
 
 Ej. ?- imprime ([a,b,c,d]).
 
@@ -44,17 +44,17 @@ c
 
 d
 
-5. Escriba la(s) regla(s) necesaria(s) para agregar un elemento al principio de una lista.
+## Escriba la(s) regla(s) necesaria(s) para agregar un elemento al principio de una lista.
 
 Ej. ?- agregar(gato,[zorro,gallina,cerdo],L).
 L=[gato,zorro,gallina,cerdo]
 
-6. Escriba la(s) regla(s) necesaria(s) para agregar un elemento al final de una lista
+## Escriba la(s) regla(s) necesaria(s) para agregar un elemento al final de una lista
 
 Ej.?- agregar_final([agua, tierra, viento],fuego ,L).
 L = [agua, tierra, viento, fuego]
 
-7. Clientes de compras en la librería. Sobre la base del conocimiento de productos indicando su descripción y precio:
+## Clientes de compras en la librería. Sobre la base del conocimiento de productos indicando su descripción y precio:
 
 * producto(cuaderno,30).
 * producto(lapiz,10).
@@ -76,7 +76,7 @@ b. Investiguen cuanto gasto un cliente.
 
 c. Se detalle en una lista, las compras realizadas [(Cliente,Producto,Cantidad,Total), ..., (...)] en la libreria.
 
-8. Agencia de autos alta y baja gama
+## Agencia de autos alta y baja gama
 
 % Base del conocimiento
 * auto(datos(baja,fiat,uno,2010,negro,precio(60000))).
