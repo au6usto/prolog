@@ -1,4 +1,4 @@
-# Trabajo Práctico de Prolog
+# Ejemplos de Prolog
 ## Tomando el grafico de la serie animada "Los Simpsons" represente las características de los objetos y las relaciones entre ellos. Asimismo, basadas en las relaciones "progenitor" y el género de las personas (hombre o mujer), establecer reglas para:
 
 * abuelo(X,Y).
