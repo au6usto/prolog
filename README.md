@@ -1,5 +1,6 @@
 # Trabajo Práctico de Prolog 2015
 1. Tomando el grafico de la serie animada "Los Simpsons" represente las características de los objetos y las relaciones entre ellos. Asimismo, basadas en las relaciones "progenitor" y el género de las personas (hombre o mujer), establecer reglas para:
+
 * abuelo(X,Y).
 * abuela(X,Y).
 * tio(X,Y).
@@ -8,11 +9,11 @@
 * hermana(X,Y).
 * mediohermana(X,Y). cuñado(X,Y).
 * cuñada(X,Y).
+
 ![Familia Simpsons](simpsons.png)
 
-2. Tomando el grafico siguiente represente las características de los objetos y las relaciones entre
-ellos. Asimismo establecer reglas para:
-quecome(X,Y).
+2. Tomando el grafico siguiente represente las características de los objetos y las relaciones entre ellos. Asimismo establecer reglas para: quecome(X,Y).
+
 ![Familia Simpsons](cadenaalimenticia.png)
 
 3. Realiza un programa que dado un signo del horóscopo nos muestre el día y mes de inicio y fin de ese signo.
@@ -32,17 +33,24 @@ quecome(X,Y).
 Escribir una regla que permita calcular el signo del Zodíaco para un día y un mes concreto, por ejemplo: signo(Dia,Mes,Signo)
 
 4. Escriba la(s) reglas(s) necesaria(s) para la función imprime
+
 Ej. ?- imprime ([a,b,c,d]).
+
 a
+
 b
+
 c
+
 d
 
 5. Escriba la(s) regla(s) necesaria(s) para agregar un elemento al principio de una lista.
+
 Ej. ?- agregar(gato,[zorro,gallina,cerdo],L).
 L=[gato,zorro,gallina,cerdo]
 
 6. Escriba la(s) regla(s) necesaria(s) para agregar un elemento al final de una lista
+
 Ej.?- agregar_final([agua, tierra, viento],fuego ,L).
 L = [agua, tierra, viento, fuego]
 
@@ -63,7 +71,9 @@ Y las reglas que indican cada compra realizada por los clientes detallando el pr
 Se pide desarrollar haciendo uso de findall cláusulas de Horm que:
 
 a. Se contabilice cuantos productos compro un cliente determinado.
+
 b. Investiguen cuanto gasto un cliente.
+
 c. Se detalle en una lista, las compras realizadas [(Cliente,Producto,Cantidad,Total), ..., (...)] en la libreria.
 
 8. Agencia de autos alta y baja gama
@@ -76,5 +86,7 @@ c. Se detalle en una lista, las compras realizadas [(Cliente,Producto,Cantidad,T
 * auto(datos(alta,mercedez,220,2012,gris,precio(280000))).
 
 Desarrollar cláusulas que calculen
+
 a. Importe total de autos por gama.
+
 b. Lista de autos por gama.
