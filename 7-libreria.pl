@@ -11,7 +11,7 @@ compra(jose,producto(goma,3)).
 sumarLista([],0).
 sumarLista([H|T],Total):- sumarLista(T,SubT), Total is H + SubT.
 
-cantidad(Cliente,X):- findall(Cantidad,(compra(Cliente,producto(_,Cantidad)), X is Cantidad),L), sumarLista(L,X).
+cantidad(Cliente,X):- findall(Total,(compra(Cliente,producto(_,Cantidad)), Total is Cantidad),L), sumarLista(L,X).
 
 total(Cliente,X):- findall(Total, (compra(Cliente,producto(Producto,Cantidad)),producto(Producto,Precio), Total is Precio*Cantidad),L), sumarLista(L,X).
 
